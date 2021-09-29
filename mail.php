@@ -9,7 +9,7 @@ $to = "belovedrong@gmail.com";
 $subject = "Mail From My Website";
 
 $txt ="Name = ". $name . "\r\nEmail = " . $email . "\r\n Message =" . $message;
-$headers = "From: noreply@yoursite.com" . "\r\n" .
+$headers = "From: noreply@personal_website.com" . "\r\n" .
 "CC: lees145@unlv.nevada.edu";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
