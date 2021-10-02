@@ -4,6 +4,9 @@ $name = $_POST['name'];
 $email= $_POST['email'];
 $message= $_POST['message'];
 
+echo "Name: ".$name;
+exit();
+
 $to = "belovedrong@gmail.com";
 
 $subject = "Mail From My Website";
