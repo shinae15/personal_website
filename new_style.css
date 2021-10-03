@@ -15,7 +15,6 @@
 .button {
     margin: auto;
     display: grid;
-    text-align: center;
     margin-top: 3%;
     width: 100px;
     background: #00bcd4;
