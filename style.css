@@ -197,3 +197,8 @@
     padding: 10px;
     font-size: 18px;
 }
+
+.success {
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
