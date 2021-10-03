@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Website </title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div class="heading">
+        <div class="nav_menu">\
+            <ul>
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="#about_me"> ABOUT ME </a></li>
+                <li><a href="resume.html"> MY RESUME </a></li>
+                <li><a href="#contact"> CONTACT </a></li>
+            </ul>
+        </div>
+
+        <div class="information">
+            <h4> HELLO, I AM </h4>
+            <h2> SHINAE LEE </h2>
+            <p> I'm a student at University of Nevada, Las Vegas <br>
+                Major : Computer Science <br> Minor : Math 
+            </p>
+        </div>
+    </div>
+
+    <div class="back_color"></div>
+
+    <div id="about_me" class="about_me">
+        <h1> ABOUT ME </h1>
+
+        <div class="row">
+            <div class="diffInfo">
+                <h3> <b> Education </b> </h3>
+                <p> <br> University of Nevada, Las Vegas <br> (June 2018 - Current) <br> <br> 
+                Bachelor of Science in Computer Science <br> Minor : Math 
+                <br> Cumulative GPA : 3.49
+                </p>
+            </div>
+            <div class="diffInfo">
+                <h3> <b> Work Experience </b> </h3>
+                <p> <br>UNLV IT Help Desk <br> (June 2021 - Current) <br> <br> 
+                Assisted faculty, staff, and students with most technology <br> 
+                accounts and with computer technical support. 
+            </div>
+            <div class="diffInfo">
+                <h3> <b> Skill </b> </h3>
+                <p> <br> <b> <i> Programming Language </i> </b> <br> C++, HTML, and CSS <br> <br> 
+                <b> <i> Operating System </i> </b> <br> Windows, MacOS, and Linux <br> <br> 
+                <b> <i> Developer Tools </i> </b> <br> Git, VS Code, and Atom 
+        </div>
+    </div>
+
+    <div class="row_project">
+        <div class="diffInfo_project">
+            <h3> Projects </h3> <br> <br> 
+            <h4> <i> Personal Website </i> </h4>
+            <p> (Aug 2021 - Sep 2021) <br> <br> 
+            Made a personal website about myself from the scatch using HTML and CSS. 
+            </p>
+            <br> <br> <br>
+            <h4> <i> Quorum Android Accessicility API (Group Project) </i> </h4>
+            <p> (Jan 2021 - Current) <br> <br> Our goal was to incorporate the 
+            Android API AccessibilityService package <br> into the Quorum Programming Language. <br><br>
+            We implemented the Android Magnification Library, specifically <br> android.widget.Magnifier in 
+            Quorum's source code. </p>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <h1> <b> CONTACT </b> </h1>
+
+        <br> <br> 
+        
+        <div class="contact_whole">
+            <form action="https://formsubmit.co/ee0580034a89d81f93c2539306718da9" method="POST"> 
+                <!-- Honeypot --> 
+                <input type="text" name="_honey" style="display: none;">
+                
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+                
+                <input type="hidden" name="_next" value="https://shinae15.github.io/personal_website/success.html">
+                
+                <div class="contact_form">
+                    <input type="text" name="name" required="required">
+                    <span> Full Name </span>
+                </div>
+                <div class="contact_form">
+                    <input type="text" name="email" required="required">
+                    <span> Email </span>
+                </div>
+                <div class="contact_form">
+                    <textarea name="message" required="required"></textarea>
+                    <span> Type Your Message... </span>
+                </div>
+                <div class="contact_form">
+                    <input type="submit" name="" required="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
