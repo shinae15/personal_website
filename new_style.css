@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.success {
+    font-family: 'Arvo', serif;
+}
+
+.success h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.button input[type="submit"] {
+    margin: auto;
+    display: grid;
+    text-align: center;
+    margin-top: 3%;
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
